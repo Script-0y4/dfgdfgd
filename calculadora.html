@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Peso en Otro Planeta</title>
+    <link rel="stylesheet" href="calculadora.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>TU PESO EN OTRO PLANETA</h1>
+        <div class="input-section">
+            <h2>¿CUÁL ES TU PESO?</h2>
+            <input type="text" id="pesoTierra" placeholder="Escribe tu peso aquí (en kg)">
+        </div>
+
+        <div class="planets">
+            <button class="planet-btn" id="marte-btn" data-planet="Marte">
+                <img src="marte.webp" alt="Marte"> 
+                <span>Marte</span>
+            </button>
+            
+            <button class="planet-btn" id="jupiter-btn" data-planet="Jupiter">
+                <img src="Jupiter.webp" alt="Júpiter">
+                <span>Júpiter</span>
+            </button>
+
+            <button class="planet-btn" id="saturno-btn" data-planet="Saturno">
+                <img src="Saturno.webp" alt="Saturno">
+                <span>Saturno</span>
+            </button>
+        </div>
+
+        <div class="result-section">
+            <p id="resultadoTexto">Selecciona un planeta para calcular tu peso.</p>
+        </div>
+    </div>
+
+    <script src="calcu.js"></script>
+</body>
+</html>

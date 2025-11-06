@@ -1,0 +1,84 @@
+body {
+    background-color: #6c299c; 
+    color: white;
+    font-family: sans-serif;  
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#pesoTierra {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.planets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.planet-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s;
+}
+
+.planet-btn:hover {
+    transform: scale(1.05); 
+}
+
+.planet-btn img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+.planet-btn span {
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.result-section {
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#resultadoTexto {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+
